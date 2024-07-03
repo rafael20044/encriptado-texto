@@ -13,29 +13,23 @@
     <main class="main">
         <section class="main__contenido">
             <div class="main__contenido__div1">
-                <div class="main__contenido__div1__div">
-                    <textarea type="text" placeholder="Ingrese un texto" id="input"></textarea>
-                    <label id="contador">caracteres 0/100</label>
-                    <p> <img src="assets/imgs/Group.png">
-                        Solo letras minúsculas sin acentos y 100 caracteres solo aplica al desencriptar
-                    </p> 
-                    <button class="main__contenido__div1__div__boton1" id="encriptarBtn" onclick="encriptar();">
-                        Encriptar
-                    </button>
-                    <button class="main__contenido__div1__div__boton2" onclick="desencriptar();">Desencriptar</button>                    
-                </div>
+                <textarea type="text" placeholder="Ingrese un texto" id="input"></textarea>
+                <label id="contador">caracteres 0/100</label>
+                <p>
+                    <img src="assets/imgs/Group.png">
+                    Solo letras minúsculas sin acentos y 100 caracteres solo aplica al encriptar
+                </p>
+                <button class="main__contenido__div1__div__boton1" id="encriptarBtn" onclick="encriptar();">Encriptar</button>
+                <button class="main__contenido__div1__div__boton2" onclick="desencriptar();">Desencriptar</button>
             </div>
             <div class="main__contenido__div2" id="div_resultado">
                 <p id="textoResultado" class="main__contenido__div2__resultado"></p>
                 <img src="assets/imgs/Muñeco.png" alt="muñeco" id="imagen">
                 <h1 id="h1">ningun mensaje fue encontrado</h1>
-                <p id="p">Ingrese el texto que desea incriptar o desencriptar</p>
+                <p id="p">Ingrese el texto que desea encriptar o desencriptar</p>
                 <div class="main__contenido__div2__div">
-                    <button id="botonCopiar" onclick="copiar();"> 
-                        copiar texto
-                    </button>
+                    <button id="botonCopiar" onclick="copiar();">copiar texto</button>
                 </div>
-                
             </div>
         </section>
     </main>
